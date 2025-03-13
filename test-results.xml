@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-03-13T03:49:23" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Sample Test" timestamp="2025-03-13T03:49:23" tests="1" file="C:\Users\Owner\Desktop\WEB\DevOp\Project1\SimpleApplication\test\sample.test.js" time="0.0000" failures="0">
+    <testcase name="Sample Test should pass" time="0.0000" classname="should pass">
+    </testcase>
+  </testsuite>
+</testsuites>
