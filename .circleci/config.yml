@@ -46,7 +46,8 @@ jobs:
           # we will SSH into our AWS instance from circle CI using our EC2_USERNAME and EC2_PUBLIC_DNS environment variables
           command: 
             ssh -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_PUBLIC_DNS 
-            "rm -rf SimpleApplication/;git clone https://github.com/ProjectPart1/SimpleApplication.git;
+            "export SERVER=\"$SERVER\"; export PRIVATE_KEY=\"$PRIVATE_KEY\";
+            rm -rf SimpleApplication/; git clone https://github.com/ProjectPart1/SimpleApplication.git;
             source SimpleApplication/deploy.sh"
 
   
