@@ -1,4 +1,5 @@
-var app = require('../app');
+const { app } = require('../app'); // ✅ Correct way
+
 var debug = require('debug')('phishsense:server');
 var http = require('http');
 
